@@ -1,0 +1,13 @@
+{
+  "name": "Views/Like Ratio",
+  "description": "Provides a small visual indication of the View/like ratio for youtube videos.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["main.js"],
+      "css": ["main.css"]
+    }
+  ]
+}
